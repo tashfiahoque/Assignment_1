@@ -1,0 +1,153 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+/* hello section start */
+.hello{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 600px;
+    padding: 100px;
+}
+.hello_part{
+    margin-top: 50px;
+}
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+#text_part{
+    padding-top: 80px;
+    padding-left: 40px;
+}
+h1 {
+    font-size: 50px;
+    color:#EC4C7A;
+}
+h2{
+    font-weight: 500;
+    font-size: 40px;
+}
+.anchor-button {
+    text-decoration: none;
+    background: linear-gradient(45deg, #EC4E92, #EC4C79);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 500;
+}
+a:hover{
+    font-weight: 600;
+    background: linear-gradient(45deg, #F7B632, #FFAB2E);
+    transition: 0.5s;
+}
+p {
+    color: dimgray;
+    padding-bottom: 20px;
+}
+.half-width img {
+    width: 100%;
+}
+/* hello section end */
+/* biography section start */  
+.biography{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+    padding-bottom: 50px;
+}
+.bio_part{
+    padding-top: 100px;
+}
+.bio_part img{
+   width: 80%; 
+}
+#bio_text{
+    padding-top: 150px;
+}
+/* biography section end */
+/* latest section start */
+.latest{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+    padding-bottom: 50px;
+    padding-top: 80px;
+}
+.latest h2{
+       text-align: center;
+       padding-bottom: 45px;
+}
+.work{
+       width: 30%;
+       float: left;
+       margin-left: 3%;
+}
+.latest img{
+       width: 80%;
+}
+#img1:hover{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+    transition: 0.5s;
+}
+#img2:hover{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #6DE688, #6CE490);
+    border-image-slice: 1;
+    transition: 0.5s;
+}
+#img3:hover{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, #F7B632, #FFAB2E);
+    border-image-slice: 1;
+    transition: 0.5s;
+}
+/* latest section end */
+/* testimonial start */
+.testimonial{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 700px;
+    padding-bottom: 50px;
+    padding-top: 80px;
+    text-align: center;
+}
+h4{
+       font-weight: 700;
+       font-size: 15px;
+}
+h5{
+       font-weight: 400;
+}
+.testimonial p{
+    padding-bottom: 60px;
+    padding-top: 20px;
+}
+.testimonial a{
+    padding: 30px 200px;
+    border-radius: 10px;
+    display: inline-block;
+}
+/* testimonial end */
+/* footer start */
+footer p{
+    text-align: center;
+}
+footer div{
+    padding-top: 10px;
+    box-shadow: 5px 7px 40px #F2F2F2;
+    height: 80%;
+}
+/* footer end */
